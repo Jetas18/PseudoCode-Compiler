@@ -1,4 +1,9 @@
-#include <iostream>
+#include <cctype>
+#include <cstdio>
+#include <cstdlib>
+
+#include <string>
+
 
 enum Token {
   tok_eof = -1,
